@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **gross_amount** | **float** |  | [optional] 
 **vat** | [**\Billingo\Model\Vat**](Vat.md) |  | [optional] 
 **vat_amount** | **float** |  | [optional] 
-**entitlement** | [**OneOfDocumentItemEntitlement**](OneOfDocumentItemEntitlement.md) |  | [optional] 
+**entitlement** | [**\Billingo\Model\Entitlement**](Entitlement.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

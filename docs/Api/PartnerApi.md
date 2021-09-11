@@ -32,7 +32,7 @@ $apiInstance = new Billingo\Api\PartnerApi(
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Billingo\Model\Body(); // \Billingo\Model\Body | PartnerUpsert object that you would like to store.
+$body = new \Billingo\Model\PartnersBody(); // \Billingo\Model\PartnersBody | PartnerUpsert object that you would like to store.
 
 try {
     $result = $apiInstance->createPartner($body);
@@ -47,7 +47,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Billingo\Model\Body**](../Model/Body.md)| PartnerUpsert object that you would like to store. |
+ **body** | [**\Billingo\Model\PartnersBody**](../Model/PartnersBody.md)| PartnerUpsert object that you would like to store. |
 
 ### Return type
 
@@ -251,7 +251,7 @@ $apiInstance = new Billingo\Api\PartnerApi(
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Billingo\Model\Body1(); // \Billingo\Model\Body1 | Partner object that you would like to update.
+$body = new \Billingo\Model\PartnersIdBody(); // \Billingo\Model\PartnersIdBody | Partner object that you would like to update.
 $id = 56; // int | 
 
 try {
@@ -267,7 +267,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Billingo\Model\Body1**](../Model/Body1.md)| Partner object that you would like to update. |
+ **body** | [**\Billingo\Model\PartnersIdBody**](../Model/PartnersIdBody.md)| Partner object that you would like to update. |
  **id** | **int**|  |
 
 ### Return type

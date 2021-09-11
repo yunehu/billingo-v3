@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **unit** | **string** |  | 
 **general_ledger_number** | **string** |  | [optional] 
 **general_ledger_taxcode** | **string** |  | [optional] 
-**entitlement** | [**OneOfProductEntitlement**](OneOfProductEntitlement.md) |  | [optional] 
+**entitlement** | [**\Billingo\Model\Entitlement**](Entitlement.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
